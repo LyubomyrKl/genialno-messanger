@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9509d662-b3fc-4bf4-8ff4-aec29f2b450b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Emoji/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consts/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Main/mainPage.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChatInput/ChatInput.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatInput/ChatInput.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChatInput/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatInput/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/liubomyr/work/rigelstorm/crm-react",
+    "last_opened_file_path": "/home/liubomyr/work/projects/genialno/genialno-react",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,7 +114,8 @@
       <workItem from="1655991016789" duration="136000" />
       <workItem from="1659960279581" duration="312000" />
       <workItem from="1660122777548" duration="21000" />
-      <workItem from="1662446610871" duration="2117000" />
+      <workItem from="1662446610871" duration="2743000" />
+      <workItem from="1662466534109" duration="5633000" />
     </task>
     <servers />
   </component>

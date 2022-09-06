@@ -361,7 +361,7 @@
   color: #000
 }
 
-.home{
+.main{
 
   &-dialog-wrapper{
     min-height: 100vh;
@@ -401,6 +401,7 @@
 
 
   &-dialog-content{
+    position: relative;
     padding: 20px;
     max-height: calc(100vh - 140px);
     overflow-y: auto;
@@ -412,6 +413,9 @@
     }
   }
 
+}
+
+.sider{
   &-search-dialog{
     padding: 10px;
 
@@ -422,27 +426,28 @@
     input:placeholder-shown {
       text-align: left;
     }
+  }
 
+  &-dialog-list{
+    max-height: calc(100vh - 115px);
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #ffffff;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $dark;
+    }
   }
 
 }
 
-.dialog-list{
-  max-height: calc(100vh - 115px);
-  overflow-y: auto;
 
-  &::-webkit-scrollbar {
-    width: 5px;
-  }
-
-  &::-webkit-scrollbar-track {
-    background: #ffffff;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: $dark;
-  }
-}
 
 .sider-header{
   background-color: inherit;
@@ -451,6 +456,9 @@
   align-items: center;
   padding: 0 20px;
 }
+
+
+
 .auth{
   height: 100%;
   width: 500px;
