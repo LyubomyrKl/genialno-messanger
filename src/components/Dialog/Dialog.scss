@@ -30,11 +30,20 @@
   &-avatar{
     flex-basis: 43px;
     margin: 0 5px 0 10px;
-    img{
-      width: 100%;
-      height: 100%;
-      border-radius: 50px;
-    }
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+
+  }
+
+  &-default-avatar{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $light-dark;
   }
 
 

@@ -5,6 +5,7 @@ import IconReadied from '@components/IconReaded';
 import classNames from 'classnames';
 import {format, getDay, isThisWeek, isToday, isYesterday} from 'date-fns';
 import {dayOfWeekAsString} from '@src/utils';
+import {letters} from '@src/consts';
 
 interface Prop {
     user:{
@@ -45,16 +46,17 @@ const Dialog = ( {user, lastMessage}:Prop ) => {
         
     };
 
+    const firstLetter = fullName.at(0);
+    const defaultBackGround = letters.filter((value)=> value.letter === firstLetter?.toLowerCase())[0].color;
+
     return (
         <div className={classNames('dialog',{'dialog-online': isOnline} )}>
             <div className="dialog-avatar">
-                <img src={avatar || 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/' +
-                    '271deea8-e28c-41a3-aaf5-2913f5f48be6/de7834s-6515bd40-8b2c-4dc6-a843-5ac1a95a8b55.jpg?' +
-                    'token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZD' +
-                    'QxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7' +
-                    'InBhdGgiOiJcL2ZcLzI3MWRlZWE4LWUyOGMtNDFhMy1hYWY1LTI5MTNmNWY0OGJlNlwvZGU3ODM0cy02NTE1YmQ0MC04YjJ' +
-                    'jLTRkYzYtYTg0My01YWMxYTk1YThiNTUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.' +
-                    'BopkDn1ptIwbmcKHdAOlYHyAOOACXW0Zfgbs0-6BY-E'} alt={`${fullName} avatar`}/>
+                {avatar ?
+                    <img src={avatar} alt={`${fullName} avatar`}/>
+                    :
+                    <div className='dialog-default-avatar' style={{background: defaultBackGround}}>{firstLetter?.toUpperCase()}</div>
+                }
             </div>
             <div className="dialog-info-wrapper">
                 <div className="dialog-info">
