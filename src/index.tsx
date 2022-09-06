@@ -4,6 +4,8 @@ import { BrowserRouter} from 'react-router-dom';
 import App from './app/App';
 import './app/styles/App.scss';
 import './app/styles/normalize.css';
+import {Provider} from 'react-redux';
+import {store} from '@src/store';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -11,9 +13,11 @@ const root = ReactDOM.createRoot(
 
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
-            <App/>
-        </BrowserRouter>
+        <Provider store={store}>
+            <BrowserRouter>
+                <App/>
+            </BrowserRouter>
+        </Provider>
     </React.StrictMode>
 );
 
