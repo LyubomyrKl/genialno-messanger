@@ -1,5 +1,5 @@
 @import '../../../node_modules/antd/dist/antd.css';
-
+@import 'src/app/styles/variables';
 
 #root, .wrapper{
   height: 100%;
@@ -63,6 +63,29 @@
 .m-auto{
   margin: auto;
 }
+
+
+.mt-5{
+  margin-top: 5px;
+}
+
+.mr-5{
+  margin-right: 5px;
+}
+
+.mb-5{
+  margin-bottom: 5px;
+}
+
+.ml-5{
+  margin-left: 5px;
+}
+
+.m-5{
+  margin: 5px;
+}
+
+
 
 .mt-10{
   margin-top: 10px;
@@ -194,7 +217,6 @@
 }
 
 
-
 .pt-20{
   padding-top: 20px;
 }
@@ -214,7 +236,6 @@
 .p-20{
   padding: 20px;
 }
-
 
 
 .pt-30{
@@ -238,7 +259,6 @@
 }
 
 
-
 .pt-40{
   padding-top: 40px;
 }
@@ -260,7 +280,6 @@
 }
 
 
-
 .pt-50{
   padding-top: 50px;
 }
@@ -280,7 +299,6 @@
 .p-50{
   padding: 50px;
 }
-
 
 
 .font-size-10{
@@ -319,6 +337,21 @@
   font-size: 50px;
 }
 
+.font-wight-500{
+  font-weight: 500;
+}
+
+.font-wight-600{
+  font-weight: 600;
+}
+
+.font-wight-700{
+  font-weight: 700;
+}
+.color-light-dark{
+  color: $light-dark;
+}
+
 
 .color-white{
   color: #fff
@@ -328,7 +361,96 @@
   color: #000
 }
 
+.home{
 
+  &-dialog-wrapper{
+    min-height: 100vh;
+  }
+
+  &-dialog-wrapper{
+    min-height: 100vh;
+  }
+
+  &-dialog-header{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+
+  &-dialog-name{
+    position: relative;
+    text-align: center;
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: -20px;
+      transform: translate(50%, -50%);
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: gray;
+
+    }
+    &.online:after{
+
+      background-color: green;
+    }
+  }
+
+
+  &-dialog-content{
+    padding: 20px;
+    max-height: calc(100vh - 140px);
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: $dark;
+    }
+  }
+
+  &-search-dialog{
+    padding: 10px;
+
+    ::placeholder {
+      text-align: center;
+    }
+
+    input:placeholder-shown {
+      text-align: left;
+    }
+
+  }
+
+}
+
+.dialog-list{
+  max-height: calc(100vh - 115px);
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $dark;
+  }
+}
+
+.sider-header{
+  background-color: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
 .auth{
   height: 100%;
   width: 500px;
@@ -357,6 +479,14 @@
     }
   }
 }
+
+
+
+
+
+
+
+
 
 
 // X-Small devices (portrait phones, less than 576px)

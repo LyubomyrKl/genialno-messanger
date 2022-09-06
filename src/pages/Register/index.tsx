@@ -32,6 +32,7 @@ const RegisterForm = () => {
                         <Input
                             prefix={<MailOutlined/>}
                             placeholder='E-mail'
+                            type='email'
                             size='large'/>
                     </Form.Item>
 
