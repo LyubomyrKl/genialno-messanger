@@ -1,0 +1,102 @@
+@import 'src/app/styles/variables';
+
+.dialog{
+  display: flex;
+  padding: 5px 0;
+  margin-bottom: 20px;
+  transition: 0.2s ease;
+  &:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  &-online{
+    .dialog-avatar{
+      position: relative;
+      &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 1px;
+        right: 3px;
+        width:10px;
+        height: 10px;
+        border-radius: 30px;
+        border: 1px #fff solid;
+        background-color: $green;
+      }
+    }
+  }
+
+  &-avatar{
+    flex-basis: 43px;
+    margin: 0 5px 0 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+
+  }
+
+  &-default-avatar{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $light-dark;
+  }
+
+
+  &-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+
+  }
+
+  &-info{
+    display: flex;
+    justify-content: space-between;
+    b{
+      font-size: 16px;
+    }
+    &-date{
+      margin-right: 10px;
+      opacity: 0.4;
+    }
+  }
+
+
+  &-message{
+    display: flex;
+    justify-content: space-between;
+
+    .dialog-lastMessage-text{
+      opacity: 0.4;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 200px;
+    }
+    .dialog-icon{
+      margin-right: 10px;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .dialog-message-count{
+      background-color: $dark;
+      text-align: center;
+      line-height: 13px;
+      color: #fff;
+      font-weight: 700;
+      min-width: 18px;
+      width: 100%;
+      height: 18px;
+      padding: 3px;
+      border-radius: 50px;
+    }
+  }
+
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9509d662-b3fc-4bf4-8ff4-aec29f2b450b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/consts/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialog/Dialog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialog/Dialog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialog/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialog/index.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/app/App.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Button/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/index.ts" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="27sY0Ox7gMU3gT91FOTXWwFuHAO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/liubomyr/work/projects/genialno/genialno-react&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/home/liubomyr/.nvm/versions/node/v15.14.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/liubomyr/work/projects/genialno/genialno-react/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/store" />
+      <recent name="$PROJECT_DIR$/src/components/Messages/TypeOfMessages" />
+      <recent name="$PROJECT_DIR$/src/components/Messages" />
+      <recent name="$PROJECT_DIR$/src/components/AudioMessage" />
+      <recent name="$PROJECT_DIR$/src/utils/date" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9509d662-b3fc-4bf4-8ff4-aec29f2b450b" name="Changes" comment="" />
+      <created>1650110036990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650110036990</updated>
+      <workItem from="1650110038656" duration="695000" />
+      <workItem from="1650112088817" duration="4643000" />
+      <workItem from="1650125350967" duration="4841000" />
+      <workItem from="1650205834246" duration="4851000" />
+      <workItem from="1650435577389" duration="11037000" />
+      <workItem from="1650519084767" duration="7673000" />
+      <workItem from="1650564538761" duration="2416000" />
+      <workItem from="1650567120999" duration="3631000" />
+      <workItem from="1650882581345" duration="8174000" />
+      <workItem from="1650964158504" duration="14000" />
+      <workItem from="1650972485521" duration="1157000" />
+      <workItem from="1653282820535" duration="14816000" />
+      <workItem from="1653989849598" duration="3732000" />
+      <workItem from="1654092322709" duration="20000" />
+      <workItem from="1654942635560" duration="16770000" />
+      <workItem from="1655026359675" duration="12400000" />
+      <workItem from="1655100183069" duration="686000" />
+      <workItem from="1655316281649" duration="1977000" />
+      <workItem from="1655355983887" duration="2423000" />
+      <workItem from="1655371971519" duration="15000" />
+      <workItem from="1655553961426" duration="7890000" />
+      <workItem from="1655990946382" duration="34000" />
+      <workItem from="1655991016789" duration="136000" />
+      <workItem from="1659960279581" duration="312000" />
+      <workItem from="1660122777548" duration="21000" />
+      <workItem from="1662446610871" duration="2743000" />
+      <workItem from="1662466534109" duration="5674000" />
+      <workItem from="1662478202090" duration="1787000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

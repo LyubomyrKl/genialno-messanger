@@ -1,0 +1,1 @@
+export const lightDark = '#2b5278';

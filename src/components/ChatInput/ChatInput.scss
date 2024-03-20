@@ -1,0 +1,26 @@
+@import 'src/app/styles/variables';
+
+.chat-input{
+  display: flex;
+  align-items: center;
+
+  & svg{
+    font-size: 20px;
+    margin: 10px;
+    color: rgba(32, 32, 32, 0.42)
+  }
+
+  &-field.ant-input{
+    display: block;
+    height: 50px;
+    border-radius: 3px;
+    margin: 10px;
+  }
+
+  &-emoji{
+    svg:hover{
+      transition: 0.5s all ease-out;
+      color: $light-dark;
+    }
+  }
+}
