@@ -1,11 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9509d662-b3fc-4bf4-8ff4-aec29f2b450b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/consts/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/actions/auth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/mongodb.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/signup-form/definitions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/auth/signup-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/components/input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialog/Dialog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialog/Dialog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialog/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialog/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-overrides.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/@types/assets/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/App.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sound.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/mixkit-clear-announce-tones-2861.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Block/Block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Block/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChatInput/ChatInput.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChatInput/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialog/Dialog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialog/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Emoji/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IconReaded/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/Message.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/Messages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/TypeOfMessages/AudioMessage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/TypeOfMessages/TextMessage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/TypeOfMessages/TypingMessage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/Paths.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/styles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/reduxHooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/AppLayout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/PublicLayout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LoginForm/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Main/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Main/mainPage.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Register/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/common.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/date/dayOfWeekAsString.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/date/distanceInWordsToNow.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/time/durationToSeconds.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.paths.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +104,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="27sY0Ox7gMU3gT91FOTXWwFuHAO" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,26 +122,36 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/liubomyr/work/projects/genialno/genialno-react&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/brd/work/genialno-messanger&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;/home/liubomyr/.nvm/versions/node/v15.14.0/bin/node&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/liubomyr/work/projects/genialno/genialno-react/node_modules/typescript/lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/brd/work/genialno-messanger/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/store" />
-      <recent name="$PROJECT_DIR$/src/components/Messages/TypeOfMessages" />
-      <recent name="$PROJECT_DIR$/src/components/Messages" />
-      <recent name="$PROJECT_DIR$/src/components/AudioMessage" />
-      <recent name="$PROJECT_DIR$/src/utils/date" />
+      <recent name="$PROJECT_DIR$/app/ui/auth" />
+      <recent name="$PROJECT_DIR$/app/ui" />
+      <recent name="$PROJECT_DIR$/app/lib/signup-form" />
+      <recent name="$PROJECT_DIR$/app/actions" />
+      <recent name="$PROJECT_DIR$/app" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-2e7d6887c066-JavaScript-WS-241.15989.47" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -110,6 +189,8 @@
       <workItem from="1662446610871" duration="2743000" />
       <workItem from="1662466534109" duration="5674000" />
       <workItem from="1662478202090" duration="1787000" />
+      <workItem from="1713538632188" duration="8334000" />
+      <workItem from="1713603249348" duration="9248000" />
     </task>
     <servers />
   </component>
