@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+.error-text {
+    color: #fb1b1b; /* Sets text color to red */
+
+    /* You can add more styles like font-size, font-family, etc. */
+}
