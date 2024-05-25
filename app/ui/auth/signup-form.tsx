@@ -10,13 +10,15 @@ export function SignupForm() {
     const [isPasswordVisible, setIsPasswordVisible] = useState(false);
     const [state, action] = useFormState(signup, null)
 
-    const toggleVisibility = () => {
-        setIsPasswordVisible(state => !state);
-    }
+    const toggleVisibility = () =>  setIsPasswordVisible(state => !state);
 
     const hasStatePasswordError = state?.status == 'error' && state.responseData.hasOwnProperty('password')
     const hasStateNameError = state?.status == 'error' && state.responseData.hasOwnProperty('name')
     const hasStateMessageError = state?.status == 'error' && state.responseData.hasOwnProperty('message')
+
+
+    const hasConflict = state?.status == 'conflict';
+
 
     return (
         <div className='w-full'>
@@ -71,6 +73,8 @@ export function SignupForm() {
                         </div>
                     )}
                 </div>
+                {/*@ts-ignore*/}
+                {hasConflict && <p className={'text-center error-text mt-3'}>{state?.responseData.messages[0]}</p>}
 
                 <div className='flex items-center justify-center py-5'>
                     <SignupButton/>
@@ -79,6 +83,8 @@ export function SignupForm() {
                 {hasStateMessageError && state.responseData.messages.map((message) => (
                     <p key={message} className={'text-center error-text'}>{message}</p>
                 ))}
+
+
             </form>
         </div>
     )

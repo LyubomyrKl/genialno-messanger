@@ -7,7 +7,7 @@ interface IInputProps{
     type?: React.HTMLInputTypeAttribute;
     children?: React.ReactNode;
     icon: React.ReactNode;
-    error: boolean;
+    error?: boolean;
 }
 
 const Input: React.FC<IInputProps> = ({

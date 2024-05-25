@@ -5,16 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9509d662-b3fc-4bf4-8ff4-aec29f2b450b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/actions/auth/auth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/actions/auth/definitions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/actions/auth/signup-form-validator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/actions/auth/user-session-creator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/actions/auth/login-form-validator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/users/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/conts/paths.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/dal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/session/definitions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/session/session.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/messages/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sign-up/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/auth/login-form.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/actions/auth.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/signup-form/definitions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/actions/auth/auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/actions/auth/auth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/actions/auth/signup-form-validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/actions/auth/signup-form-validator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/actions/auth/user-session-creator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db/mongodb.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/db/mongodb.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/ui/auth/signup-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/auth/signup-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/components/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/components/input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +77,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/brd/work/genialno-messanger&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/brd/work/own projects/genialno-messanger&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -76,23 +87,23 @@
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/brd/work/genialno-messanger/node_modules/typescript/lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/brd/work/own projects/genialno-messanger/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/actions/auth" />
-      <recent name="$PROJECT_DIR$/app/ui/auth" />
-      <recent name="$PROJECT_DIR$/app/ui" />
-      <recent name="$PROJECT_DIR$/app/lib/signup-form" />
+      <recent name="$PROJECT_DIR$/app/actions/auth/sign-up" />
+      <recent name="$PROJECT_DIR$/app/lib/sessions" />
       <recent name="$PROJECT_DIR$/app/actions" />
+      <recent name="$PROJECT_DIR$/app/ui/auth" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-2e7d6887c066-JavaScript-WS-241.15989.47" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17011.90" />
       </set>
     </attachedChunks>
   </component>
@@ -133,7 +144,13 @@
       <workItem from="1662466534109" duration="5674000" />
       <workItem from="1662478202090" duration="1787000" />
       <workItem from="1713538632188" duration="8334000" />
-      <workItem from="1713603249348" duration="28320000" />
+      <workItem from="1713603249348" duration="29680000" />
+      <workItem from="1713888003915" duration="23000" />
+      <workItem from="1713890259809" duration="1946000" />
+      <workItem from="1713939534754" duration="11000" />
+      <workItem from="1716039814639" duration="9864000" />
+      <workItem from="1716197955081" duration="6000" />
+      <workItem from="1716648620386" duration="4962000" />
     </task>
     <servers />
   </component>

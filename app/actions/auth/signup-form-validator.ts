@@ -26,12 +26,11 @@ const SignupFormSchema = z.object({
 });
 
 // Function to validate the sign-up form data
-const validateSignUpForm = (formData: FormData): IValidateSignUpFormResponse => {
-    const rowName = formData.get('name');
-    const rowPassword = formData.get('password');
-
+const validateSignUpForm = async(formData: FormData): Promise<IValidateSignUpFormResponse> => {
+    const rawName = formData.get('name');
+    const rawPassword = formData.get('password');
     // Validate form values
-    const { status, fieldsData } = validateSignUpFormValues(rowName, rowPassword);
+    const { status, fieldsData } = validateSignUpFormValues(rawName, rawPassword);
 
     if (status === 'error') {
         // Return error state if validation fails
@@ -42,8 +41,10 @@ const validateSignUpForm = (formData: FormData): IValidateSignUpFormResponse => 
     }
 
     const { name } = fieldsData as ISuccessSignUpState;
+
     // Check if the user already exists
-    const isPresentAlready = validateSignUpFormConflictByName(name);
+    const isPresentAlready = await validateSignUpFormConflictByName(name);
+
 
     if (isPresentAlready !== null) {
         // Return conflict state if user already exists
@@ -62,8 +63,6 @@ const validateSignUpForm = (formData: FormData): IValidateSignUpFormResponse => 
     };
 };
 
-
-
 // Function to validate sign-up form values against defined schema
 const validateSignUpFormValues = (
     name: FormDataEntryValue | null,
@@ -80,16 +79,10 @@ const validateSignUpFormValues = (
     };
 };
 
-
-
-
 // Function to check if a user with the given name already exists
 const validateSignUpFormConflictByName = async (name: string) => {
     return await dbClient.db('messenger').collection('users').findOne({ name });
 };
-
-
-
 
 
 // Export the main function for sign-up form validation
